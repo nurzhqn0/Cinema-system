@@ -1,5 +1,10 @@
 # Cinema Ticket System
 
+<div align="center">
+   Использованные технологии: C++
+</div>
+</br>
+
 <img width="790" alt="image" src="https://github.com/user-attachments/assets/ebf2b46f-575e-44c9-b7bf-a69a569b64b7">
 
 
