@@ -8,23 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		F03899E72C5E0E200069E9D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F03899E62C5E0E200069E9D2 /* main.cpp */; };
+		F03899F12C5E15350069E9D2 /* movies.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F03899EF2C5E14F50069E9D2 /* movies.txt */; };
+		F06E04652C5E6582009BACD5 /* users.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F06E04632C5E6542009BACD5 /* users.txt */; };
+		F06E04672C5E6928009BACD5 /* tickets.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = F06E04662C5E6904009BACD5 /* tickets.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F03899E12C5E0E200069E9D2 /* CopyFiles */ = {
+		F03899F02C5E151B0069E9D2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				F06E04672C5E6928009BACD5 /* tickets.txt in CopyFiles */,
+				F06E04652C5E6582009BACD5 /* users.txt in CopyFiles */,
+				F03899F12C5E15350069E9D2 /* movies.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F03899E32C5E0E200069E9D2 /* Nfactorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Nfactorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03899E62C5E0E200069E9D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F03899EF2C5E14F50069E9D2 /* movies.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = movies.txt; sourceTree = "<group>"; };
+		F06E04632C5E6542009BACD5 /* users.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = users.txt; sourceTree = "<group>"; };
+		F06E04662C5E6904009BACD5 /* tickets.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = tickets.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,9 @@
 		F03899DA2C5E0E200069E9D2 = {
 			isa = PBXGroup;
 			children = (
+				F06E04632C5E6542009BACD5 /* users.txt */,
+				F03899EF2C5E14F50069E9D2 /* movies.txt */,
+				F06E04662C5E6904009BACD5 /* tickets.txt */,
 				F03899E52C5E0E200069E9D2 /* Nfactorial */,
 				F03899E42C5E0E200069E9D2 /* Products */,
 			);
@@ -71,7 +83,7 @@
 			buildPhases = (
 				F03899DF2C5E0E200069E9D2 /* Sources */,
 				F03899E02C5E0E200069E9D2 /* Frameworks */,
-				F03899E12C5E0E200069E9D2 /* CopyFiles */,
+				F03899F02C5E151B0069E9D2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -245,7 +257,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "";
 			};
 			name = Debug;
 		};
@@ -253,7 +267,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "";
 			};
 			name = Release;
 		};
